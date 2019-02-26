@@ -25,6 +25,7 @@ sys.stderr = open('error.txt', 'w')
 #Impresión por salida estandar
 print("Salida estandar 2\n"); sys.stderr.flush()
 #Impresión por salida de error
+#La linea de abajo es una excepción opcional, descomentela si quiere ver cómo influye
 #a = 2/0
 print ('Salida de error 2', file=sys.stderr); sys.stderr.flush()
 #Se cierra la escritura del fichero
